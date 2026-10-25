@@ -6,11 +6,11 @@
    "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
   },
   "done_v1": {
-   "value": 516,
+   "value": 518,
    "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
   },
   "open_v1": {
-   "value": 2,
+   "value": 0,
    "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
   },
   "year_v1": {
@@ -22,11 +22,11 @@
    "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
   },
   "done_v2": {
-   "value": 464,
+   "value": 465,
    "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
   },
   "open_v2": {
-   "value": 1,
+   "value": 0,
    "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
   },
   "year_v2": {
@@ -58,15 +58,15 @@
    "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
   },
   "done_total": {
-   "value": 1638,
+   "value": 1641,
    "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
   },
   "open_total": {
-   "value": 3,
+   "value": 0,
    "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
   },
   "done_pct": {
-   "value": 99.8,
+   "value": 100.0,
    "source": "medieval-sec/volumes.yaml, Bischoff*/pages (page folders), Bischoff*/pages/page_*/page_*.xml"
   },
   "editor": {
@@ -74,7 +74,7 @@
    "source": "medieval-sec/bibliography.yaml (Bd. II, III: aus dem Nachlaß herausgegeben)"
   },
   "pages_qwen": {
-   "value": 1131,
+   "value": 1134,
    "source": "page XML <meta model> stamps"
   },
   "pages_other_model": {
@@ -82,11 +82,11 @@
    "source": "page XML <meta model> stamps (gemini-flash-latest and unstamped pages)"
   },
   "xml_broken": {
-   "value": 3,
+   "value": 0,
    "source": "page XML that does not parse; the scan and the file exist, the text is not counted"
   },
   "xml_broken_list": {
-   "value": "Bischoff1998 Seite 5, Bischoff1998 Seite 21, Bischoff2004 Seite 392",
+   "value": "keine",
    "source": "the pages behind xml_broken"
   },
   "cat_done_v1": {
@@ -98,7 +98,7 @@
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "other_done_v1": {
-   "value": 98,
+   "value": 100,
    "source": "transcribed pages outside the catalogue span (front matter, Nachträge, Literatur, Register)"
   },
   "entries_v1": {
@@ -114,11 +114,11 @@
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); distinct running-head places"
   },
   "cat_done_v2": {
-   "value": 368,
+   "value": 369,
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "cat_gap_v2": {
-   "value": 1,
+   "value": 0,
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "other_done_v2": {
@@ -126,11 +126,11 @@
    "source": "transcribed pages outside the catalogue span (front matter, Nachträge, Literatur, Register)"
   },
   "entries_v2": {
-   "value": 2410,
+   "value": 2414,
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "mains_v2": {
-   "value": 1960,
+   "value": 1963,
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "places_v2": {
@@ -162,11 +162,11 @@
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); distinct running-head places"
   },
   "entries_total": {
-   "value": 10014,
+   "value": 10018,
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "mains_total": {
-   "value": 8163,
+   "value": 8166,
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "xref_total": {
@@ -178,7 +178,7 @@
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "prenine_total": {
-   "value": 171,
+   "value": 172,
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "addendum_total": {
@@ -234,11 +234,11 @@
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "nrs_v2": {
-   "value": 1815,
+   "value": 1817,
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "nr_missing_v2": {
-   "value": 31,
+   "value": 29,
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); numbers inside the read range with no numeric main entry"
   },
   "nr_dup_v2": {
@@ -246,7 +246,7 @@
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "mains_unnumbered_v2": {
-   "value": 144,
+   "value": 145,
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); main entries without a numeric running number"
   },
   "nr_v3_start": {
@@ -314,7 +314,7 @@
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "map_entries_europe": {
-   "value": 9333,
+   "value": 9337,
    "source": "projects/medieval/places.yaml; entries whose running-head place falls in the Europe box"
   },
   "map_entries_america": {
@@ -334,19 +334,19 @@
    "source": "distinct running-head places behind map_entries_unmapped"
   },
   "map_entries_mapped": {
-   "value": 9476,
+   "value": 9480,
    "source": "entries placed on either map"
   },
   "origin_n": {
-   "value": 7389,
+   "value": 7391,
    "source": "page XML main entries: <origin place date> as printed between the en-dashes"
   },
   "origin_place_n": {
-   "value": 7258,
+   "value": 7260,
    "source": "page XML main entries: <origin place date> as printed between the en-dashes"
   },
   "origin_dated_n": {
-   "value": 7192,
+   "value": 7194,
    "source": "page XML main entries: <origin place date> as printed between the en-dashes"
   },
   "origin_top1": {
@@ -358,11 +358,11 @@
    "source": "page XML main entries: <origin place date> as printed between the en-dashes"
   },
   "dated_n": {
-   "value": 7192,
+   "value": 7194,
    "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
   },
   "dated_ix_n": {
-   "value": 4814,
+   "value": 4816,
    "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
   },
   "dated_ix_pct": {
@@ -370,11 +370,11 @@
    "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
   },
   "dated_early_n": {
-   "value": 1405,
+   "value": 1406,
    "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
   },
   "dated_mid_n": {
-   "value": 2250,
+   "value": 2251,
    "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
   },
   "dated_late_n": {
@@ -386,7 +386,7 @@
    "source": "page XML main entries: <origin date>; bins by a fixed phrase table (see manifest notes)"
   },
   "mains_all": {
-   "value": 8163,
+   "value": 8166,
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page)"
   },
   "cov_shelf_pct": {
