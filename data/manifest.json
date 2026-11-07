@@ -426,7 +426,7 @@
    "source": "page XML entryblock@type on catalogue pages (running head KATALOG up to Literaturverzeichnis; Bd. II up to the last transcribed page); share of main entries with the element"
   },
   "tv_date": {
-   "value": "30. September 2026",
+   "value": "24. Oktober 2026",
    "source": "medieval-sec/text_validity.json (text-validity/1.9, Vision reading against the page text)"
   },
   "tv_pages": {
@@ -486,11 +486,11 @@
    "source": "medieval-sec/status.json (pdai-contract/1.0 audit); overall (not_ready = nicht bereit)"
   },
   "status_date": {
-   "value": "30. September 2026",
+   "value": "20. Oktober 2026",
    "source": "medieval-sec/status.json (pdai-contract/1.0 audit)"
   },
   "status_missing": {
-   "value": "nichts weiter",
+   "value": "das Gesamttext-Register (structure.xml) ist älter als die Seitentranskription",
    "source": "medieval-sec/status.json (pdai-contract/1.0 audit); overall_reasons, else the structure gap, else nothing"
   },
   "spec_nr": {

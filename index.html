@@ -10,10 +10,8 @@
   <meta property="og:description" content="Landing der mittelalterlichen Handschriften. Portal zu Bischoffs Katalog der festländischen Handschriften des neunten Jahrhunderts mit Bestand, Orten, Datierungen, dem Aufbau eines Eintrags und den offenen Punkten.">
   <meta property="og:type" content="website">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,460;0,9..144,560;1,9..144,460&family=Source+Sans+3:ital,wght@0,400;0,560;0,650;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,560;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/landing.css?v=20261025005910">
+  <link rel="stylesheet" href="assets/fonts.css?v=20261107225943">
+  <link rel="stylesheet" href="assets/landing.css?v=20261107225943">
 <!-- famulus:publisher:start -->
 <meta name="referrer" content="no-referrer-when-downgrade">
 <meta name="publisher" content="OpenScienceTechnology GmbH">
@@ -52,6 +50,7 @@
           <input type="hidden" name="bedeutung" value="1"><button type="submit">Fragen</button></div>
           <p class="ask-hint">Famulus liest die Frage, bestimmt den Evidenzraum und antwortet mit Belegen – in der Spalte „Anfrage“ des Viewers.</p>
         </form>
+
       </section>
 
       <section class="portals" aria-label="Einstiege">
@@ -83,7 +82,7 @@
 <article class="portal wide" id="offen">
 <p class="mark">Was noch fehlt</p>
 <h2>Alle Seiten gelesen</h2>
-<p>Kein Scan fehlt, und keine Seite fehlt in der Transkription: alle 1.641 Druckseiten liegen als Bild vor und alle 1.641 als lesbares XML. Der Bereitschaftsbericht vom 30. September 2026 lautet „suchbereit“; offen daran ist: nichts weiter.</p>
+<p>Kein Scan fehlt, und keine Seite fehlt in der Transkription: alle 1.641 Druckseiten liegen als Bild vor und alle 1.641 als lesbares XML. Der Bereitschaftsbericht vom 20. Oktober 2026 lautet „suchbereit“; offen daran ist: das Gesamttext-Register (structure.xml) ist älter als die Seitentranskription.</p>
 <p class="go-row"><a class="go" href="https://famulus.lettre.ai/medieval/Bischoff2014?p=101" target="_blank" rel="noopener">Teil III</a><a class="go quiet" href="#quellen">Offene Punkte</a></p>
 </article>
 <article class="portal method" id="ansatz">
@@ -106,7 +105,7 @@
         <p class="section-lead">Was diese Seite zeigt, stammt aus den folgenden Quellen.</p>
         <div class="sources">
           <div><div class="source-item"><h3>Bernhard Bischoff, Katalog der festländischen Handschriften des neunten Jahrhunderts</h3><p>Teil I 1998, Teil II 2004, Teil III 2014; Wiesbaden: Harrassowitz Verlag, in der Reihe der Kommission für die Herausgabe der mittelalterlichen Bibliothekskataloge Deutschlands und der Schweiz. Teil II und III sind aus dem Nachlaß herausgegeben von Birgit Ebersperger.</p><p class="meta">3 Teile · 1.641 Seiten</p><p><a class="go" href="https://famulus.lettre.ai/medieval/Bischoff1998?p=30" target="_blank" rel="noopener">Viewer öffnen</a></p></div><div class="source-item"><h3>Transkription</h3><p>Schemagebundene Transkription mit qwen3.8:27b-mlx: 1.134 Seiten. 507 Seiten tragen einen anderen oder keinen Modellstempel.</p><p class="meta">1.641 von 1.641 Seiten</p></div></div>
-          <div class="source-item"><h3>Offene Punkte</h3><ol class="admission"><li>Scans. Es fehlt keiner. Teil I hat 518 Bilder, Teil II 465, Teil III 658. Jede Druckseite ist aufgenommen.</li><li>Transkription. Alle 1.641 von 1.641 Seiten sind lesbar. Teil I hat 518 von 518, Teil II 465 von 465, Teil III 658 von 658.</li><li>Vorspann. Die Prüfung vom 30. September 2026 beanstandet 27 von 1.641 Seiten (1,7 Prozent). Es sind Seiten der Einleitung und des Abkürzungsverzeichnisses: eine Fußnote steht im Fließtext, oder der gelesene Text geht über die gedruckte Seite hinaus. Die Katalogseiten sind nicht beanstandet. Neu gelesen wird dieser Vorspann, nicht der Katalog.</li><li>Laufende Nummern. Teil I trägt 1–2038, Teil II 2039–3.884, Teil III 2.412–7.656. Teil III setzt schon bei 2.412 ein, also noch in der Spanne von Teil II, weil Nachträge und Verweise ältere Nummern wiederholen. 162, 145 und 218 Haupteinträge haben keine reine Ziffer: der Druck setzt dort ein Verweiszeichen oder eine Nachtragsnummer. 57 Nummern in Teil III sind mehr als einmal gelesen; das ist eine Wiederholung in der Transkription, keine fehlende Seite.</li><li>Orte auf der Karte. Ein Eintrag bekommt den Ort aus der Kopfzeile seiner Seite. Wechselt der Ort mitten auf der Seite, bleiben alle Einträge beim Ort der Kopfzeile. 530 Einträge an 52 Orten haben keine Koordinate und fehlen auf beiden Karten. Die Koordinaten sind Stadtmitten, von Hand gesetzt. Neue Orte kommen in projects/medieval/places.yaml, nicht durch einen weiteren Lese-Lauf.</li><li>Ursprung und Zeit. Der Katalog schreibt Schreiborte (Fulda, Tours) und Schriftprovinzen (Nordostfrankreich) in dieselbe Zeile. 1.794 von 7.194 Datierungen sind im Druck mehrdeutig (Alternative, Klammer, Fragezeichen) und stehen in keinem Zeitabschnitt. Daran ändert kein Lauf etwas.</li><li>Suche. Der Bereitschaftsbericht vom 30. September 2026 lautet „suchbereit“. Offen daran: nichts weiter. Ein Famulus-Notebook zu dieser Sammlung gibt es nicht. Es scheitert nicht an fehlenden Scans; es ist noch nicht angelegt.</li><li>Rechte. Die Digitalisate dürfen öffentlich nur als Ausschnitt gezeigt werden. Eine Veröffentlichung braucht eine Freigabe. Das ist keine Lücke im Bestand.</li></ol></div>
+          <div class="source-item"><h3>Offene Punkte</h3><ol class="admission"><li>Scans. Es fehlt keiner. Teil I hat 518 Bilder, Teil II 465, Teil III 658. Jede Druckseite ist aufgenommen.</li><li>Transkription. Alle 1.641 von 1.641 Seiten sind lesbar. Teil I hat 518 von 518, Teil II 465 von 465, Teil III 658 von 658.</li><li>Vorspann. Die Prüfung vom 24. Oktober 2026 beanstandet 27 von 1.641 Seiten (1,7 Prozent). Es sind Seiten der Einleitung und des Abkürzungsverzeichnisses: eine Fußnote steht im Fließtext, oder der gelesene Text geht über die gedruckte Seite hinaus. Die Katalogseiten sind nicht beanstandet. Neu gelesen wird dieser Vorspann, nicht der Katalog.</li><li>Laufende Nummern. Teil I trägt 1–2038, Teil II 2039–3.884, Teil III 2.412–7.656. Teil III setzt schon bei 2.412 ein, also noch in der Spanne von Teil II, weil Nachträge und Verweise ältere Nummern wiederholen. 162, 145 und 218 Haupteinträge haben keine reine Ziffer: der Druck setzt dort ein Verweiszeichen oder eine Nachtragsnummer. 57 Nummern in Teil III sind mehr als einmal gelesen; das ist eine Wiederholung in der Transkription, keine fehlende Seite.</li><li>Orte auf der Karte. Ein Eintrag bekommt den Ort aus der Kopfzeile seiner Seite. Wechselt der Ort mitten auf der Seite, bleiben alle Einträge beim Ort der Kopfzeile. 530 Einträge an 52 Orten haben keine Koordinate und fehlen auf beiden Karten. Die Koordinaten sind Stadtmitten, von Hand gesetzt. Neue Orte kommen in projects/medieval/places.yaml, nicht durch einen weiteren Lese-Lauf.</li><li>Ursprung und Zeit. Der Katalog schreibt Schreiborte (Fulda, Tours) und Schriftprovinzen (Nordostfrankreich) in dieselbe Zeile. 1.794 von 7.194 Datierungen sind im Druck mehrdeutig (Alternative, Klammer, Fragezeichen) und stehen in keinem Zeitabschnitt. Daran ändert kein Lauf etwas.</li><li>Suche. Der Bereitschaftsbericht vom 20. Oktober 2026 lautet „suchbereit“. Offen daran: das Gesamttext-Register (structure.xml) ist älter als die Seitentranskription. Ein Famulus-Notebook zu dieser Sammlung gibt es nicht. Es scheitert nicht an fehlenden Scans; es ist noch nicht angelegt.</li><li>Rechte. Die Digitalisate dürfen öffentlich nur als Ausschnitt gezeigt werden. Eine Veröffentlichung braucht eine Freigabe. Das ist keine Lücke im Bestand.</li></ol></div>
         </div>
       </section>
     </div>
@@ -115,20 +114,20 @@
   <footer>
     <div class="wrap">
       <div><p>Bischoff Handschriftenkatalog</p><p>Gerd Graßhoff, Humboldt-Universität zu Berlin, Forschungsinstitut des Deutschen Museums</p></div>
-      <div><p><a href="data/manifest.json">Datenmanifest</a> · Stand 25. Oktober 2026</p></div>
+      <div><p><a href="data/manifest.json">Datenmanifest</a> · Stand 7. November 2026</p></div>
     </div>
     <div class="wrap"></div>
   </footer>
 
-  <script src="assets/vendor/d3.v7.min.js?v=20261025005910"></script>
-  <script src="assets/vendor/topojson-client.min.js?v=20261025005910"></script>
-  <script src="assets/vendor/world-110m.js?v=20261025005910"></script>
-  <script src="data/bundle.js?v=20261025005910"></script>
-  <script src="assets/js/charts.js?v=20261025005910"></script>
-  <script src="assets/js/scrolly.js?v=20261025005910"></script>
+  <script src="assets/vendor/d3.v7.min.js?v=20261107225943"></script>
+  <script src="assets/vendor/topojson-client.min.js?v=20261107225943"></script>
+  <script src="assets/vendor/world-110m.js?v=20261107225943"></script>
+  <script src="data/bundle.js?v=20261107225943"></script>
+  <script src="assets/js/charts.js?v=20261107225943"></script>
+  <script src="assets/js/scrolly.js?v=20261107225943"></script>
 <!-- famulus:publisher:start -->
 <p class="famulus-publisher" style="max-width:46rem;margin:2.5rem auto 1.5rem;padding:.7rem 16px 0;border-top:2px solid #c8a22a;font:13px/1.5 -apple-system,BlinkMacSystemFont,sans-serif;opacity:.8">Herausgegeben von der OpenScienceTechnology GmbH · <a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a></p>
-<script>(function(){try{var d=JSON.stringify({u:location.pathname,r:document.referrer,m:""});navigator.sendBeacon?navigator.sendBeacon("https://lettre.ngrok.dev/famulus-counter/api/hit",d):fetch("https://lettre.ngrok.dev/famulus-counter/api/hit",{method:'POST',body:d,keepalive:true,mode:'no-cors'})}catch(e){}})();</script>
+<script>(function(){try{var C="https://lettre.ngrok.dev/famulus-counter/api/hit",L=C.replace(/hit$/,'leave'),q=new URLSearchParams(location.search),v=Math.random().toString(36).slice(2,12),u=location.pathname;function S(a,b){navigator.sendBeacon?navigator.sendBeacon(a,b):fetch(a,{method:'POST',body:b,keepalive:true,mode:'no-cors'})}S(C,JSON.stringify({u:u,r:document.referrer,m:"",v:v,c:q.get('c')||q.get('utm_campaign')||''}));var a=0,t=document.visibilityState=='visible'?Date.now():0,s=0,x='',g='',k='';function sc(){var h=document.documentElement;s=Math.max(s,Math.min(100,Math.round((scrollY+innerHeight)/Math.max(h.scrollHeight,1)*100)))}addEventListener('scroll',sc,{passive:true});addEventListener('load',sc);sc();document.addEventListener('click',function(e){var l=e.target.closest&&e.target.closest('a[href]');if(l&&/^https?:$/.test(l.protocol)){var i=l.host==location.host;x=i?'in':'out';g=i?l.pathname+l.hash:l.host;k=(l.getAttribute('aria-label')||l.textContent||'').replace(/\s+/g,' ').trim().slice(0,80);B()}},true);function B(){S(L,JSON.stringify({u:u,v:v,d:Math.round((a+(t?Date.now()-t:0))/1000),s:s,x:x,t:g,k:k}))}function F(){if(t){a+=Date.now()-t;t=0}B()}document.addEventListener('visibilitychange',function(){document.visibilityState=='hidden'?F():t=Date.now()});addEventListener('pagehide',function(){if(t)F()})}catch(e){}})();</script>
 <noscript><img src="https://lettre.ngrok.dev/famulus-counter/api/hit.gif?u=/medieval/&amp;m=" width="1" height="1" alt=""></noscript>
 <!-- famulus:publisher:end -->
 </body>
